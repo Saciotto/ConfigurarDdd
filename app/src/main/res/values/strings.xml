@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Configurar DDD</string>
+    <string name="simsettings_operatortextview">Operadoras disponíveis</string>
+    <string name="simsettings_notused">Não acrescentará DDD</string>
+    <string name="simeditactivity_confirmbutton">OK</string>
+    <string name="simeditactivity_cancelbutton">CANCELAR</string>
+    <string name="simeditactivity_explanationtextview">Insira o código da operadora para este cartão. Deixe vazio para desativar o auto preenchimento no momento da discagem.</string>
+    <string name="numberformat_operator_info">Número para</string>
+    <string name="action_change_toast_option_turn_on">Ativar Pop-up</string>
+    <string name="action_change_toast_option_turn_off">Desativar Pop-up</string>
+
+</resources>

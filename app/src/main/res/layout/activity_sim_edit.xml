@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:touchscreenBlocksFocus="true"
+    android:shrinkColumns="1,2"
+    android:stretchColumns="0">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/operatorTextView"
+            android:singleLine="false"
+            android:textColor="@color/primary_material_dark"
+            android:layout_span="3"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+            android:id="@+id/explanationTextView"
+            android:singleLine="false"
+            android:text="@string/simeditactivity_explanationtextview"
+            android:textColor="@color/secondary_text_default_material_light"
+            android:layout_span="3"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/operatorCodeEditText"
+            android:inputType="number"
+            android:maxLength="2"
+            android:longClickable="false"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_span="3"
+            android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showDividers="middle"
+        android:transitionGroup="false"
+        android:touchscreenBlocksFocus="false"
+        android:nestedScrollingEnabled="false"
+        android:measureWithLargestChild="false"
+        android:baselineAligned="true"
+        android:clickable="true"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simeditactivity_cancelbutton"
+            android:id="@+id/cancelButton"
+            android:elegantTextHeight="false"
+            android:gravity="center_vertical|right"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simeditactivity_confirmbutton"
+            android:id="@+id/confirmButton"
+            android:gravity="center_vertical|right"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless.Small"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</TableLayout>

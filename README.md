@@ -1,4 +1,4 @@
-# ConfigurarDdd
+# Configurar DDD
 
 Este é um aplicativo dedicado a apenas uma função: Adicionar o código da operadora de celular em seus contatos no momento da discagem.
 Desta forma o aplicativo é mais leve, rápido e não pede privilégios que colocam em risco a segurança de seus dados pessoais.
